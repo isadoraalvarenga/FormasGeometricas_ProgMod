@@ -23,7 +23,7 @@
  */
 
  /** Classe abstrata para representação de polígonos retos (têm base e altura) */
-public abstract class PoligonoReto extends FormaGeometrica{
+public abstract class PoligonoReto extends FormaGeometrica{ //extend(uma classe extende a outra quando = Ela extende uma classe e faz algo a mais, como a herança.)
     
     protected double base;
     protected double altura;

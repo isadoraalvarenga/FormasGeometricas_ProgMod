@@ -24,13 +24,14 @@
 
  /** Classe para representação de um Quadrado */
 public class Quadrado extends PoligonoReto{
+
  
     /**
      * Construtor: recebe um lado que será propagado para base e altura. A classe-mãe valida o lado como pelo menos 1.
      * @param lado Lado para o quadrado. Valor deve ser igual ou maior a 1, ou será corrigido para 1.
      */
     public Quadrado(double lado){
-        //TODO
+        super("QUADRADO", lado, lado )
     }
 
     /**
@@ -39,7 +40,7 @@ public class Quadrado extends PoligonoReto{
      */
     @Override
     public double area(){
-        //TODO
+        return base*altura;
     }
 
     /**
@@ -48,7 +49,7 @@ public class Quadrado extends PoligonoReto{
      */
     @Override
     public double perimetro(){
-        //TODO
+        return base*4d;
     }
 
     /**
